@@ -1,4 +1,5 @@
 {
-  "buildCommand": "bun run build",
-  "framework": null
+  "buildCommand": "bun run build && rm -rf .vercel/output && mkdir -p .vercel && mv dist .vercel/output",
+  "framework": null,
+  "outputDirectory": ".vercel/output"
 }
