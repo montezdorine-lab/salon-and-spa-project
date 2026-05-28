@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 
 import { LusoraFrame } from "@/components/LusoraFrame";
 
-export const Route = createFileRoute("/")({
+export const Route = createFileRoute("/$")({
   head: () => ({
     meta: [
       { title: "Lusora - Spa & Wellness One-Page Template for Framer" },
