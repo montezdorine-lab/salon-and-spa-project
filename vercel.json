@@ -1,0 +1,8 @@
+{
+  "buildCommand": "bun run build",
+  "framework": null,
+  "outputDirectory": ".output/public",
+  "rewrites": [
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
+}
